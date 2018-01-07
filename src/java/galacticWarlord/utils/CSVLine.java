@@ -114,20 +114,10 @@ public class CSVLine
     }
     
     public static void main(String args[])
-    {
-
-        String strs[] =
-        {
-            "data", "\"data\"", "", "\"\"",
-            "\"data", "da\"ta", "data\"",
-            "\"da\"ta", "\"\"data",
-            " \"data\"", " \"data\" "
-        };
-
+    {         
         String data[] =
         {
             "data1,data2,data3",
-            "data1, data2, data3",
             "data1, data2, data3",
             " data1, data2, data3",
             "data1,dat\"a2,data3",
