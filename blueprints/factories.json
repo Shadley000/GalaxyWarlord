@@ -1,0 +1,31 @@
+[
+{ 	
+	"NNAME":"Biological",
+	"DESCRIPTION":"O2 burning biological crew member",
+	"TIME_SECONDS":"60",
+	"INGREDIENTS":[
+		{"NNAME":"Oxygen","QUANTITY":"-1"},
+		{"NNAME":"CO2","QUANTITY":"1"}
+	]
+}
+
+{ 	
+	"NNAME":"Biosphere",
+	"DESCRIPTION":"Algea farm that converts CO2 back to O2",
+	"TIME_SECONDS":"60",
+	"INGREDIENTS":[
+		{"NNAME":"CO2","QUANTITY":"-1"},
+		{"NNAME":"Oxygen","QUANTITY":"1"}
+	]
+}
+
+{ 	
+	"NNAME":"Reactor Core",
+	"DESCRIPTION":"Converts Reactor fuel to power",
+	"TIME_SECONDS":"60",
+	"INGREDIENTS":[
+		{"NNAME":"Reactor Fuel","QUANTITY":"-1"},
+		{"NNAME":"Power","QUANTITY":"100"}
+	]
+}
+]

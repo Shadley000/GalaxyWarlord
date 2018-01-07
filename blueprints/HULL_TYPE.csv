@@ -1,0 +1,40 @@
+NNAME,SYMBOL,DESCRIPTION
+UPS,0,Stores power to prevent surges
+Reactor Fuel Storage,1,
+Spare Parts,2,Storage for spare parts
+,3,
+,4,
+,5,
+,6,
+,7,
+,8,
+,9,
+Rail Gun,A,Mass throwing weapon
+Beam Canon,B,Laser Beam Canon
+Communication,C,Allows advance communication capabilities
+Drone Bay,D,Stores and launches drones
+,E,
+,F,
+Shield Generator,G,Generates protective shield
+Passage Way,H,Structural Passageway
+Rail,I,Structural connector
+,J,
+,K,
+,L,
+,M,
+Navigation Deck,N,allows control of the vessel
+,O,
+,P,
+Living Quarters,Q,Living space for the crew
+Reactor,R,Nuclear Powered Reactor
+Sensors,S,Sensor Array
+Thruster,T,Provides thrust to move around a solar system
+,U,
+Biosphere,V,Maintains the air quality and recycles biowaste
+,W,
+ECW,X,jamming and message decryption
+Stealth Field,Y,reduces the ships scan signature
+Warp Drive,Z,Allows transport between solar systems
+Blocked,.,a blocked section
+,+,
+,-,
