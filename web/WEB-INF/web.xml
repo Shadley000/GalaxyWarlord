@@ -2,19 +2,23 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>gwc</servlet-name>
-        <servlet-class>galacticWarlord.server.GWControlServlet</servlet-class>
+        <servlet-class>galacticWarlord.server.servlet.GWControlServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>login</servlet-name>
-        <servlet-class>galacticWarlord.server.LoginServlet</servlet-class>
+        <servlet-class>galacticWarlord.server.servlet.LoginServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>GalacticEntityJSONServlet</servlet-name>
-        <servlet-class>galacticWarlord.server.GalacticEntityJSONServlet</servlet-class>
+        <servlet-class>galacticWarlord.server.servlet.GalacticEntityJSONServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ScannerJSONServlet</servlet-name>
-        <servlet-class>galacticWarlord.server.ScannerJSONServlet</servlet-class>
+        <servlet-class>galacticWarlord.server.servlet.ScannerJSONServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>JPATestServlet</servlet-name>
+        <servlet-class>galacticWarlord.server.servlet.JPATestServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>gwc</servlet-name>
@@ -34,6 +38,10 @@
     <servlet-mapping>
         <servlet-name>ScannerJSONServlet</servlet-name>
         <url-pattern>/ScannerJSONServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>JPATestServlet</servlet-name>
+        <url-pattern>/JPATestServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
